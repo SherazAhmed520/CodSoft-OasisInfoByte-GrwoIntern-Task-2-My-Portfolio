@@ -16,7 +16,6 @@ nav {
     align-items:center;
     gap: 20px;
     width: 100%;
-
     padding: 10px;
     cursor: pointer;
     position: fixed;
@@ -51,12 +50,7 @@ nav #nav_sec ul{
     list-style-type: none;
     gap: 20px;
     font-family: cursive;
-    font-weight: bold;
-<<<<<<< HEAD
-
-=======
->>>>>>> 2b1bcb24f641b6c688674f80eb53a627733be575
-    
+    font-weight: bold;  
 }
 nav #icons_sec ul{
     display: flex;
@@ -171,7 +165,6 @@ nav #icons_sec ul{
     justify-content:center;
     align-items:flex-start;
     position: absolute;
-    top:1%;
     right: 60%;
 }
 .main_img_div img {
