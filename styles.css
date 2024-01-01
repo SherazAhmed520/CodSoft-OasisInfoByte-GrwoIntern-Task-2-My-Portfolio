@@ -14,6 +14,7 @@ nav {
     display: flex;
     justify-content:space-around;
     align-items:center;
+    z-index: 2;
     gap: 20px;
     width: 100%;
     padding: 10px;
@@ -63,8 +64,12 @@ nav #icons_sec ul{
 #icons_sec ul li {
     background-color: #fff;
     border-radius: 50%;
-    padding: 10px;
     transition: background-color 0.1s, transform 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
 }
 
 #icons_sec ul li:hover {
@@ -175,7 +180,7 @@ nav #icons_sec ul{
     justify-content:center;
     align-items:flex-start;
     position: absolute;
-    top: -1.5%;
+    margin-top: -5px;
     right: 60%;
 }
 .main_img_div img {
